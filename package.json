@@ -2,13 +2,13 @@
     "name": "latex-songs",
     "displayName": "LaTeX Songs",
     "description": "Syntax highlighting for LaTeX songs package",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "claudiobartoli",
     "engines": {
         "vscode": "^1.0.0"
     },
     "categories": [
-        "Languages"
+        "Languages", "Snippets", "Productivity"
     ],
     "extensionDependencies": [
         "latex"
