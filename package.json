@@ -2,8 +2,8 @@
     "name": "latex-songs",
     "displayName": "LaTeX Songs",
     "description": "Syntax highlighting for LaTeX songs package",
-    "version": "1.0.0",
-    "publisher": "webartoli",
+    "version": "1.0.1",
+    "publisher": "claudiobartoli",
     "engines": {
         "vscode": "^1.0.0"
     },
