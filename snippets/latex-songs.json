@@ -1,0 +1,32 @@
+{
+
+	"Begin song": {
+		"prefix": "sng-song",
+		"body": [ 
+            "\\beginsong{${title}}[by={${author}}]",
+            "$0",
+            "\\endsong"],
+		"description": "Begin song - \\beginsong{title}[by={author}]"
+	},
+
+	"Verse Definition": {
+		"prefix": "sng-verse",
+		"body": [ 
+            "\\beginverse",
+            "$0",
+            "\\endverse"
+        ],
+		"description": "Begin verse - \\beginverse"
+	},
+    
+    "Chorus Definition": {
+		"prefix": "sng-chorus",
+		"body": [ 
+            "\\beginchorus",
+            "$0",
+            "\\endchorus"
+        ],
+		"description": "Begin chorus - \\beginchorus"
+	}
+
+}

@@ -1,0 +1,33 @@
+{
+    "name": "latex-songs",
+    "displayName": "LaTeX Songs",
+    "description": "Syntax highlighting for LaTeX songs package",
+    "version": "1.0.0",
+    "publisher": "webartoli",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "extensionDependencies": [
+        "latex"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "latex-songs",
+            "aliases": ["LaTeX Songs", "latex songs", "songs"],
+            "extensions": [".sbd"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "latex-songs",
+            "scopeName": "text.tex.latex.songs",
+            "path": "./syntaxes/latex-songs.tmLanguage"
+        }],
+            "snippets": [{
+            "language": "latex-songs",
+            "path": "./snippets/latex-songs.json"
+        }]
+    }
+}
